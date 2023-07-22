@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::placeholder {
+    @apply text-sm
+}
+input::selection {
+    caret-color: red; /* Warna caret */
+    width: 2px; /* Lebar caret */
+}
